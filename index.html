@@ -13,10 +13,19 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #003366; /* Blau */
-            color: #fff;
+            background-color: #f0f0f0; /* Heller Hintergrund für bessere Lesbarkeit */
+            color: #333;
             padding: 20px;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header h1 span.tobien {
+            color: #7fc241; /* Grün */
+        }
+        header h1 span.trading {
+            color: #003366; /* Blau */
         }
         nav {
             background-color: #7fc241; /* Grün */
@@ -26,7 +35,7 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #fff; /* Weiß für Text auf grüner Navigation */
+            color: #fff; /* Weißer Text für grüne Navigation */
             font-weight: bold;
         }
         .hero {
@@ -82,7 +91,7 @@
 </head>
 <body>
     <header>
-        <h1>Tobien Trading GmbH</h1>
+        <h1><span class="tobien">Tobien</span> <span class="trading">Trading</span> GmbH</h1>
         <p>Premium Ingredients for Food & Cosmetics</p>
     </header>
     <nav>
